@@ -25,21 +25,17 @@
       </plugin>
     </plugins>
   </build>
-  <properties>
-     <soner.host.url>http://3.17.62.148:9000/</sonar.host.url>   
-  <properties>
    <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://10.128.0.10:8081/repository/student-rel/</url>
-            <url> http://18.191.40.138:8081/repository/maven-releases/</url>
+            
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://10.128.0.10:8081/repository/student-snap/</url>
-            <url> http://18.191.40.138:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
