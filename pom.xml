@@ -39,9 +39,9 @@
     </distributionManagement>
   <properties>
   <!-- Other properties -->
-  <sonar.host.url>http://3.17.62.148:9000/</sonar.host.url>
+  <sonar.host.url>http://http://3.144.24.82:9000//</sonar.host.url>
     <sonar.login>admin</sonar.login>
-    <sonar.password>p7110</sonar.password>
+    <sonar.password>prem</sonar.password>
      <sonar.java.binaries>src/</sonar.java.binaries>
 </properties>
   <dependencies>
