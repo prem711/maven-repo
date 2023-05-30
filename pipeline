@@ -1,0 +1,63 @@
+pipeline {
+        agent any
+    
+    tools {
+        maven 'maven'
+    }
+    
+    environment {
+        AWS_ACCESS_KEY_ID = credentials('Acesskey')
+        AWS_SECRET_ACCESS_KEY = credentials('secretkey')
+        AWS_DEFAULT_REGION = 'us-east-2'
+         
+    }
+    
+    stages{
+        stage('CHECKOUT') {
+            steps {
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/prem711/maven-task-3.git']])
+            }
+        }
+        
+        stage('MAVEN BUILD') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+        
+        stage('SONAR CODE QUALITY') {
+            steps {
+                sh 'mvn sonar:sonar'
+            }
+        }
+        
+        stage('NEXUS ARTIFACT UPLOAD') {
+            steps {
+                nexusArtifactUploader artifacts: [[artifactId: 'studentapp', classifier: '', file: '/var/lib/jenkins/workspace/maven-job/target/studentapp-2.5-SNAPSHOT.war', type: 'war']], credentialsId: 'nexus', groupId: 'com.jdevs', nexusUrl: '18.220.144.90:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'task-snapshot', version: '2.5-SNAPSHOT'
+            }
+        }
+        
+        stage('ECR') {
+            steps {
+                withCredentials([string(credentialsId: 'Acesskey', variable: 'Acesskey'), 
+                string(credentialsId: 'secretkey', variable: 'secretkey')]) {
+                    sh 'aws configure set aws_access_key_id $Acesskey'
+                    sh 'aws configure set aws_secret_access_key $secretkey'
+                    sh 'aws configure set default.region $AWS_DEFAULT_REGION'
+                           // some block
+                    sh 'aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 323578407133.dkr.ecr.us-east-2.amazonaws.com'
+                    sh 'docker build -t starlord  .'
+                    sh 'docker tag starlord:latest 323578407133.dkr.ecr.us-east-2.amazonaws.com/starlord:latest'
+                    sh 'docker push 323578407133.dkr.ecr.us-east-2.amazonaws.com/starlord:latest'
+                      }
+            }
+        }
+        
+        stage('ECR TO ECS') {
+            steps {
+                sh 'aws ecs update-service --cluster arn:aws:ecs:us-east-2:323578407133:cluster/starlord1 --service arn:aws:ecs:us-east-2:323578407133:service/starlord1/starservce --force-new-deployment'
+            }
+        }
+        
+    }
+}
