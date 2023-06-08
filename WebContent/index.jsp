@@ -1,55 +1,54 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>User Data</title>
+    <title>Welcome to Huge aqamn</title>
+    <style>
+        body {
+            background: linear-gradient(to right, black 40%, red 50%);
+            color: #FFFFFF; / Set text color to white for contrast /
+        }
+        
+        h1 {
+            font-family: 'Oswald', sans-serif; / Set font family to Oswald /
+        }
+        
+        h2 {
+            font-family: 'Cambria', serif; / Set font family to Cambria /
+            color: orangered; / Set font color to red /
+        }
+        
+        p {
+            font-style: normal; / Reset font style to normal /
+            color: aquamarine; / set font style to normal /
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
-<style>
-div.ex {
-	text-align: right width:300px;
-	padding: 10px;
-	border: 5px solid grey;
-	margin: 0px
-}
-</style>
 <body>
-	<h1>Student Registration Form</h1>
-	<div class="ex">
-		<form action="registrationController" method="post">
-			<table style="with: 50%">
-				<tr>
-					<td>Student Full Name</td>
-					<td><input type="text" name="fullname"/></td>
-				</tr>
-				<tr>
-					<td>Student Father Name</td>
-					<td><input type="text" name="fullname"/></td>
-				</tr>
-				<tr>
-					<td>Student Permanent Address</td>
-					<td><input type="text" name="address"/></td>
-				</tr>
-				<tr>
-					<td>Student Age</td>
-					<td><input type="text" name="age"/></td>
-				</tr>
-				<tr>
-					<td>Student Qualification</td>
-					<td><input type="text" name="qual"/></td>
-				</tr>
-				<tr>
-					<td>Student Percentage</td>
-					<td><input type="text" name="percent"/></td>
-				</tr>
-				<tr>
-					<td>Year Passed</td>
-					<td><input type="text" name="yop"/></td>
-				</tr>
-			</table>
-			<input type="submit" value="register"/>
-		</form>
-	</div>
+    <h1>Home of StarLord
+        WELCOME TO JUNGLE
+    </h1>
+    
+    <h2>MENU</h2>
+    <ul>
+        <li>1. IMAGES</li>
+        <li>2. VIDEOS</li>
+        <li>3. MUSIC</li>
+        <li>4. CONS</li>
+    </ul>
+    
+    <h2>Year</h2>
+    <ul>
+        <li>2020</li>
+        <li>2021</li>
+        <li>2022</li>
+        <li>2023</li>
+    </ul>
+    
+    <div class="overlay-image">
+        <img src="https://www.citypng.com/public/uploads/preview/marvel-studios-logo-download-png-11662677284hmetko8fwm.png" alt="Marvel Logo">
+    </div>
+    
+    <p>Contact: +91 xxxxxxxxx63</p>
 </body>
 </html>
