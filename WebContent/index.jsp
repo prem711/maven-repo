@@ -46,7 +46,7 @@
     </ul>
     
     <div class="overlay-image">
-        <img src="https://www.citypng.com/public/uploads/preview/marvel-studios-logo-download-png-11662677284hmetko8fwm.png" alt="Marvel Logo">
+        <img src="https://img.mensxp.com/media/content/2023/Jun/Image-1_T-Series_647f3e6fed73d.jpeg" alt="Marvel Logo">
     </div>
     
     <p>Contact: +91 8977538895</p>
