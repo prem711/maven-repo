@@ -48,7 +48,7 @@
         }
 
         .space {
-            margin-bottom: 6em; /* Add a space of 2 lines */
+            margin-bottom: 0.5em; /* Add a space of 2 lines */
         }
 
         .overlay-image p {
