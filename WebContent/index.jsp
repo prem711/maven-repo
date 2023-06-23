@@ -40,7 +40,7 @@
         }
 
         .space {
-            margin-bottom: 2em; /* Add a space of 2 lines */
+            margin-bottom: 6em; /* Add a space of 6 lines */
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -48,7 +48,7 @@
 <body>
     <h1>SAFETY ONE</h1>
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
-    <div class="space"></div> <!-- Add a space of 4 lines -->
+    <div class="space"></div> <!-- Add a space of 6 lines -->
     
     <div class="overlay-image">
         <p>Devi Vara Prasad</p>
