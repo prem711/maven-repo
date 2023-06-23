@@ -26,6 +26,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh; /* Adjust the height as needed */
         }
 
@@ -43,6 +44,7 @@
     
     <div class="overlay-image">
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
+        <p>Devi Vara Prasad</p>
     </div>
     
     <p>Contact: +91 8977538895</p>
