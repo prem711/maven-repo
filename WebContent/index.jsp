@@ -11,7 +11,7 @@
     }
 
     .second-image {
-      width: 50%;
+      width: 25%;
     }
 
     .image-container {
