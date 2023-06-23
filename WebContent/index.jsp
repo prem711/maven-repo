@@ -42,8 +42,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Home of StarLord
-        SEX OFFENDERS LIST FROM TELANGANA
+    <h1>
+        SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA
     </h1>
     
     <div class="overlay-image">
