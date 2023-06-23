@@ -63,6 +63,14 @@
     <div class="overlay-image">
         <p style="color: #000000;">Devi Vara Prasad, Age: 26</p>
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
+        <h3>Safety Precautions:</h3>
+        <ul>
+            <li>Stay informed about registered sex offenders in your area.</li>
+            <li>Teach children about personal boundaries and safety.</li>
+            <li>Encourage open communication with children about any uncomfortable situations.</li>
+            <li>Secure your home and ensure safety measures are in place.</li>
+            <li>Report any suspicious activities to local authorities.</li>
+        </ul>
     </div>
     
     <p>Contact: +91 8977538895</p>
