@@ -47,9 +47,10 @@
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
     
     <div class="overlay-image">
-        <p>Devi Vara Prasad</p>
-        <p>Age: 26</p>
+       
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
+         <p>Devi Vara Prasad</p>
+        <p>Age: 26</p>
     </div>
     
     <p>Contact: +91 8977538895</p>
