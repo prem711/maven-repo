@@ -42,16 +42,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA
-    </h1>
+    <h1>Home of StarLord</h1>
+    <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
     
     <div class="overlay-image">
-        <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
-        <p>Name:Devi Vara Prasad</p>
+        <p>Devi Vara Prasad</p>
         <p>Age: 26</p>
-        <p>Place: Hyderabad, telagana.
-    </div>-
+        <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
+    </div>
     
     <p>Contact: +91 8977538895</p>
 </body>
