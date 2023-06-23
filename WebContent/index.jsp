@@ -11,11 +11,20 @@
         
         h1 {
             font-family: 'Oswald', sans-serif; /* Set font family to Oswald */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust the height as needed */
+            margin: 0;
         }
         
         h2 {
             font-family: 'Cambria', serif; /* Set font family to Cambria */
             color: orangered; /* Set font color to red */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
         }
         
         p {
