@@ -19,6 +19,11 @@
       flex-direction: column;
       align-items: center;
     }
+
+    .image-details {
+      font-size: 16px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -27,6 +32,9 @@
   <div class="image-container">
     <img class="logo" src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201405/telangana-govt_660_053114102100.jpg?size=948:533" alt="Telangana Government Logo">
     <img class="second-image" src="https://www.linkpicture.com/q/dvp.jpeg" alt="Second Image">
+    <div class="image-details">
+      <p>Line 1 Name: Devi Vara Prasad Alias DVP, Age: 26</p>
+    </div>
   </div>
 </body>
 </html>
