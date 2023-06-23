@@ -30,6 +30,11 @@
       margin-top: 20px;
       line-height: 1.5;
     }
+
+    .note {
+      font-size: 14px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
@@ -52,6 +57,9 @@
         <li>Report any suspicious or illegal activity to the appropriate authorities.</li>
         <li>Stay connected with local community resources and support networks for additional guidance and assistance.</li>
       </ul>
+    </div>
+    <div class="note">
+      <p>If you come across the person mentioned above or have any information related to their activities, please contact our toll-free number: 1800-0000-0120.</p>
     </div>
   </div>
 </body>
