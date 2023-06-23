@@ -49,6 +49,7 @@
     <div class="overlay-image">
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
         <p>Devi Vara Prasad</p>
+        <p>Age: 26</p>
     </div>
     
     <p>Contact: +91 8977538895</p>
