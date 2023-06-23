@@ -46,7 +46,8 @@
     </ul>
     
     <div class="overlay-image">
-        <img src="https://img.mensxp.com/media/content/2023/Jun/Image-1_T-Series_647f3e6fed73d.jpeg" alt="Marvel Logo">
+        <img src="https://i.pinimg.com/564x/a7/52/5c/a7525c2e6a0cc6dc263244460f5e9c30.jpg" alt="Marvel Logo">
+
     </div>
     
     <p>Contact: +91 8977538895</p>
