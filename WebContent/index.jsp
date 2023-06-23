@@ -29,21 +29,7 @@
         SEX OFFENDERS LIST FROM TELANGANA
     </h1>
     
-    <h2>MENU</h2>
-    <ul>
-        <li>1. IMAGES</li>
-        <li>2. VIDEOS</li>
-        <li>3. MUSIC</li>
-        <li>4. CONS</li>
-    </ul>
-    
-    <h2>Year</h2>
-    <ul>
-        <li>2020</li>
-        <li>2021</li>
-        <li>2022</li>
-        <li>2023</li>
-    </ul>
+   
     
     <div class="overlay-image">
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
