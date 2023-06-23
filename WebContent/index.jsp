@@ -51,8 +51,7 @@
     <div class="space"></div> <!-- Add a space of 6 lines -->
     
     <div class="overlay-image">
-        <p>Devi Vara Prasad</p>
-        <p>Age: 26</p>
+        <p>Devi Vara Prasad, Age: 26</p>
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
     </div>
     
