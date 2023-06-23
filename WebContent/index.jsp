@@ -38,12 +38,17 @@
         .overlay-image p {
             color: #000000; /* Set font color to black */
         }
+
+        .space {
+            margin-bottom: 2em; /* Add a space of 2 lines */
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>SAFETY ONE</h1>
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
+    <div class="space"></div> <!-- Add a space of 2 lines -->
     
     <div class="overlay-image">
         <p>Devi Vara Prasad</p>
