@@ -4,7 +4,8 @@
     <title>Welcome to Huge aqamn</title>
     <style>
         body {
-            background: #FFFFFF; /* Set background color to white */
+            background: url('https://www.linkpicture.com/q/government-telangana-logo.png') no-repeat center center fixed;
+            background-size: cover;
             color: #000000; /* Set text color to black for contrast */
         }
         
@@ -33,10 +34,6 @@
         .overlay-image img {
             max-width: 100%;
             max-height: 100%;
-        }
-
-        .overlay-image p {
-            color: #000000; /* Set font color to black */
         }
 
         .space {
