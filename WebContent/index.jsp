@@ -10,9 +10,7 @@
       width: 25%;
     }
 
-    .second-image {
-      width: 50%;
-    }
+   
 
     .image-container {
       display: flex;
