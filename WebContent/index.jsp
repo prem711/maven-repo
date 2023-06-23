@@ -4,7 +4,7 @@
     <title>Welcome to Huge aqamn</title>
     <style>
         body {
-            background: linear-gradient(to right, black 40%, red 50%);
+            background: linear-gradient(to right, black 50%, red 50%);
             color: #FFFFFF; / Set text color to white for contrast /
         }
         
