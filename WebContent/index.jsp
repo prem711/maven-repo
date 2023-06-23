@@ -48,18 +48,37 @@
         }
 
         .space {
-            margin-bottom: 6em; /* Add a space of 2 lines */
+            margin-bottom: 2em; /* Add a space of 2 lines */
         }
 
         .overlay-image p {
             color: #000000; /* Set font color to black */
         }
+        
+        .heading-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .heading-container h1,
+        .heading-container h2 {
+            margin: 0;
+        }
+        
+        .list-container {
+            text-align: center;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>SAFETY ONE</h1>
-     <li>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</li>
+    <div class="heading-container">
+        <h1>SAFETY ONE</h1>
+        <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
+    </div>
     
     <div class="space"></div> <!-- Add a space of 2 lines -->
     
@@ -74,8 +93,3 @@
             <li>Secure your home and ensure safety measures are in place.</li>
             <li>Report any suspicious activities to local authorities.</li>
         </ul>
-    </div>
-    
-    <p>Contact: +91 8977538895</p>
-</body>
-</html>
