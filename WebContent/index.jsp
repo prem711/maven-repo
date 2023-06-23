@@ -4,9 +4,9 @@
     <title>Welcome to Huge aqamn</title>
     <style>
         body {
-            background: url('https://upload.wikimedia.org/wikipedia/en/4/44/Emblem_of_Telangana.png') no-repeat center center fixed;
-            background-size: cover;
+            background: #FFFFFF; /* Set background color to white */
             color: #000000; /* Set text color to black for contrast */
+            margin: 0;
         }
         
         h1 {
