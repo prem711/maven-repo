@@ -39,6 +39,10 @@
         .space {
             margin-bottom: 6em; /* Add a space of 6 lines */
         }
+
+        .overlay-image p {
+            color: #000000; /* Set font color to black */
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
@@ -48,7 +52,7 @@
     <div class="space"></div> <!-- Add a space of 6 lines -->
     
     <div class="overlay-image">
-        <p>Devi Vara Prasad, Age: 26</p>
+        <p style="color: #000000;">Devi Vara Prasad, Age: 26</p>
         <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
     </div>
     
