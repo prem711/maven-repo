@@ -33,7 +33,6 @@
         .overlay-image img {
             max-width: 100%;
             max-height: 100%;
-            opacity: 0.5; /* Set opacity to 0.5 (50% transparency) */
         }
 
         .overlay-image p {
@@ -47,10 +46,9 @@
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
     
     <div class="overlay-image">
-       
-        <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
-         <p>Devi Vara Prasad</p>
+        <p>Devi Vara Prasad</p>
         <p>Age: 26</p>
+        <img src="https://www.linkpicture.com/q/dvp.jpeg" alt="Marvel Logo">
     </div>
     
     <p>Contact: +91 8977538895</p>
