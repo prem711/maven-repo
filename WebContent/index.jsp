@@ -61,11 +61,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-        }
-        
-        .heading-container h1,
-        .heading-container h2 {
-            margin: 0;
+            margin-bottom: 0.5em; /* Reduce the margin bottom to 0.5em */
         }
         
         .list-container {
@@ -93,3 +89,4 @@
             <li>Secure your home and ensure safety measures are in place.</li>
             <li>Report any suspicious activities to local authorities.</li>
         </ul>
+   
