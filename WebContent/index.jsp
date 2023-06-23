@@ -4,6 +4,7 @@
   <style>
     body {
       text-align: center;
+      background-color: lightgrey;
     }
     
     .logo {
@@ -44,7 +45,7 @@
     <img class="logo" src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201405/telangana-govt_660_053114102100.jpg?size=948:533" alt="Telangana Government Logo">
     <img class="second-image" src="https://www.linkpicture.com/q/dvp.jpeg" alt="Second Image">
     <div class="image-details">
-      <p>Name: Devi Vara Prasad Alias DVP, location-Hyderabad Age: 26</p>
+      <p>Line 1 Name: Devi Vara Prasad Alias DVP, Age: 26</p>
     </div>
     <div class="safety-precautions">
       <p>When dealing with sex offenders, it is important to take the following safety precautions:</p>
