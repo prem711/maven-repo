@@ -34,6 +34,10 @@
             max-width: 100%;
             max-height: 100%;
         }
+
+        .overlay-image p {
+            color: #000000; /* Set font color to black */
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
