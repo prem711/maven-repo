@@ -58,7 +58,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>SAFETY ONE, SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h1>
+    <h1>SAFETY ONE 
+     <li>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</li></h1>
     
     <div class="space"></div> <!-- Add a space of 2 lines -->
     
