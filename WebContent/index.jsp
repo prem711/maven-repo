@@ -48,7 +48,7 @@
         }
 
         .space {
-            margin-bottom: 2em; /* Add a space of 2 lines */
+            margin-bottom: 6em; /* Add a space of 2 lines */
         }
 
         .overlay-image p {
@@ -58,8 +58,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>SAFETY ONE</h1>
-    <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
+    <h1>SAFETY ONE, SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h1>
+    
     <div class="space"></div> <!-- Add a space of 2 lines -->
     
     <div class="overlay-image">
