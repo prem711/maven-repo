@@ -5,6 +5,10 @@
     body {
       text-align: center;
     }
+    
+    img {
+      width: 50%;
+    }
   </style>
 </head>
 <body>
