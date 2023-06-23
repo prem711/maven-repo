@@ -58,7 +58,7 @@
 <body>
     <h1>SAFETY ONE</h1>
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
-    <div class="space"></div> <!-- Add a space of 6 lines -->
+    <div class="space"></div> <!-- Add a space of 1 lines -->
     
     <div class="overlay-image">
         <p style="color: #000000;">Devi Vara Prasad, Age: 26</p>
