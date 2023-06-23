@@ -16,6 +16,7 @@
             align-items: center;
             height: 100vh; /* Adjust the height as needed */
             margin: 0;
+            margin-bottom: 0.5em; /* Reduce the margin bottom to 0.5em */
         }
         
         h2 {
@@ -25,6 +26,7 @@
             justify-content: center;
             align-items: center;
             margin: 0;
+            margin-top: 0.5em; /* Reduce the margin top to 0.5em */
         }
         
         p {
@@ -58,7 +60,7 @@
 <body>
     <h1>SAFETY ONE</h1>
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
-    <div class="space"></div> <!-- Add a space of 1 lines -->
+    <div class="space"></div> <!-- Add a space of 6 lines -->
     
     <div class="overlay-image">
         <p style="color: #000000;">Devi Vara Prasad, Age: 26</p>
