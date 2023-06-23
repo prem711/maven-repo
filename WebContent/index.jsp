@@ -42,7 +42,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Home of StarLord</h1>
+    <h1>SAFETY ONE</h1>
     <h2>SEX OFFENDERS LIST FROM GOVERNMENT OF TELANGANA</h2>
     
     <div class="overlay-image">
