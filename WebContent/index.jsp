@@ -33,6 +33,7 @@
         .overlay-image img {
             max-width: 100%;
             max-height: 100%;
+            opacity: 0.5; /* Set opacity to 0.5 (50% transparency) */
         }
 
         .overlay-image p {
